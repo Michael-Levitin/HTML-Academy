@@ -1,0 +1,304 @@
+/*It's not 100% Pixel Perfect, */
+*
+{ margin: 0;
+  padding: 0;
+}
+
+body
+{ width: 1440px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+header
+{ display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+  height: 218px;
+}
+
+.title
+{ font-family: "Playfair Display", serif;
+
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 47px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #000000;
+  margin-top: 60px;
+  justify-content:center;
+}
+
+.menu
+{ width: 100%
+}
+
+
+.menu ul {
+
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 135px;
+  padding-right: 134px;
+  margin-bottom: 47px;
+ /*
+
+
+  background-color: #7FFFD4;
+  margin-top: 46px;
+  margin-bottom: 47px;
+  padding: 0;
+ */
+  
+
+}
+
+
+.menu ul a
+{ font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  color: #000000;
+  text-decoration: none;
+ /* background-color: #E3CCCE;*/
+}
+
+
+.promo
+{ width: 1440px;
+  height: 464px;
+  background: url("img/U-hotel.jpg");
+  color: #ffffff;
+
+}
+
+.promo-content
+{ padding: 46px auto;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+  height: 464px;
+}
+
+
+.logo
+{ /*position: absolute;*/
+  width: 55px;
+  height: 55px;
+  margin-top: 46px;
+ /* left: 693px;
+  top: 264px;*/
+}
+
+.promo-title
+{ font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 29px;
+}
+
+.description
+{ width: 456px;
+  height: 64px;
+  margin-bottom: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 133px;
+}
+
+.annonce
+{ margin-top: 44px;
+ /* background-color: lightblue;*/
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.annonce-title
+{ font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+/* identical to box height */
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.art-news
+{ display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 51px;
+}
+
+
+.news
+{ width: 370px;
+  margin-left: 29px;
+  color: #000000;
+  font-style: normal;
+}
+
+.news:first-child
+{ margin-left: 0;
+}
+
+.news h3
+{ margin-top: 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+}
+
+.important
+{ color: #FF7931;
+}
+
+.news p
+{ margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
+.tickets
+{ height: 556px;
+  background: #F7F7F7;
+  background-image: url('img/Ellipse.svg');
+  background-position: center, center;
+  background-repeat: no-repeat;
+  margin-bottom: 52px;
+
+  display: flex;
+  align-content:center;
+  justify-content: center;
+  text-align:center;
+  color: #000000;
+}
+
+.circle h2
+{ font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  margin: 35px 0 32px;
+  text-transform: uppercase;
+}
+
+
+.circle article h3
+{ font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  margin: 20px 0 10px;
+}
+
+.circle article p
+{ width: 370px;
+  height: 63px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+/* or 150% */
+}
+
+button
+{ border:0;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+/* На вопрос - как заморочиться с кнопкой - и она все равно плохо работает :(
+.button {  
+  display: flex;
+    align-content:center;
+    align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  margin:0;
+
+  background: #FF7931;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+  border: none;  
+  color: #FFFFFF;   
+  font-size: 12px; 
+  line-height: 14px;
+  letter-spacing: 2px; 
+  padding: 11px 29px;  
+  width: 169px;
+  height: 47px; 
+}
+*/
+
+
+.secondary
+{ background: #575757;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.secondary .title
+{ margin-top: 26px;
+  margin-bottom: 33px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #FFFFFF
+}
+
+.secondary .menu ul
+{ margin-bottom:43px;
+}
+
+.secondary .menu ul a
+{ color: #FFFFFF; 
+}
+
+.social
+{ margin-top: 41px;  
+}
+
+.social img
+{ margin-left: 10px;
+}
+.social img:first-child
+{ margin-left: 0;
+}
+
+.divider
+{ line-height: 0;
+}
